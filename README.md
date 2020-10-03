@@ -45,3 +45,9 @@ $conda install -c conda-forge pdfminer3k
 _With pip:_  
 $ pip install -U pdfminer3k  
 
+**Usage**
+1. Clone this repository onto your computer in any location
+2. Create a new directory named "Files" in a location of your choice
+3. Inside the directory, create a sub-directory named "PDF"
+4. Copy all of your PDF documents into "PDF"
+5. 
