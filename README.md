@@ -14,32 +14,32 @@ A system for calculating the similarity of PDF documents in a directory
 **Installation**  
 Open terminal or an Anaconda Prompt  
 
-To create an environment with Python 3.6:  
+Create an environment with Python 3.6:  
 >$ conda create --name myenv python=3.6  
 _Replace "myenv" with the environment name of your choice_  
 
-To activate the new environment:  
+Activate the new environment:  
 >$ conda activate myenv  
 
-To install SpaCy:  
+Install SpaCy:  
 >_With conda:_  
 $ conda install -c conda-forge spacy  
 _With pip:_  
 $ pip install -U spacy  
 
-To download Spacy's English model:  
+Download Spacy's English model:  
 >$ python -m spacy download en_core_web_sm  
 
-To install nltk:  
+Install nltk:  
 >_With conda:_  
 $ conda install -c anaconda nltk  
 _With pip:_  
 $ pip install -U nltk  
 
-To download all nltk packages:  
+Download all nltk packages:  
 >$ python -m nltk.downloader all  
 
-To install PDFminer3k:  
+Install PDFminer3k:  
 >_With conda:_  
 $conda install -c conda-forge pdfminer3k  
 _With pip:_  
@@ -47,7 +47,8 @@ $ pip install -U pdfminer3k
 
 **Usage**
 1. Clone this repository onto your computer in any location
-2. Create a new directory named "Files" in a location of your choice
-3. Inside the directory, create a sub-directory named "PDF"
-4. Copy all of your PDF documents into "PDF"
-5. 
+2. Inside the "Files" directory, create a sub-directory named "PDF"
+3. Copy all of your PDF documents into "PDF"
+4. Execute each cell from top to bottom
+
+**NOTE:** All PDFs in the "PDF" directory will be processed by default. The process should not be stopped, so if you do not plan to leave your machine running, I recommend setting the _limit_ variable in freqMatrices to the number of documents you want to process before running that cell. _limit_ can also be set in pdfToText, although freqMatrices is the overarching time-consuming method. 
