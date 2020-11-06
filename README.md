@@ -6,7 +6,7 @@ A system for calculating the similarity of PDF documents in a directory
 
 **Requirements**
 * Anaconda
-* Python 3.6
+* Python >=3.6
 * SpaCy
 * NLTK
 * PDFminer3k
@@ -14,7 +14,7 @@ A system for calculating the similarity of PDF documents in a directory
 **Installation**  
 Open terminal or an Anaconda Prompt  
 
-Create an environment with Python 3.6:  
+Create an environment with Python 3.6 or later:  
 >$ conda create --name myenv python=3.6  
 _Replace "myenv" with the environment name of your choice_  
 
