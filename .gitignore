@@ -1,0 +1,35 @@
+# Exclude all 
+Files/*
+
+# Include directories, exclude contents
+!Files/PDF
+Files/PDF/*
+
+!Files/Checkpoint
+Files/Checkpoint/*
+
+!Files/Stemmed
+Files/Stemmed/*
+
+!Files/Working
+Files/Working/*
+
+!Files/n\ Removed
+Files/n\ Removed/*
+
+!Files/English\ Words
+Files/English\ Words/*
+
+!Files/Stop\ Words
+Files/Stop\ Words/*
+
+!Files/Working\ -\ Copy
+Files/Working\ -\ Copy/*
+
+!Files/No\ Spaces
+Files/No\ Spaces/*
+
+!Files/Text\ Files
+Files/Text\ Files/*
+
+!Files/words_dictionary.json
